@@ -1,0 +1,75 @@
+.circleGreen {
+    background: #0eef4e;
+    border-radius: 3em;
+    -moz-border-radius: 3em;
+    -webkit-border-radius: 3em;
+    color: #ffffff;
+    height: 1.8em;
+    width: 1.8em;
+    display: inline-block;
+    font-family: 'Roboto', Helvetica, Sans-serif;
+    font-size: 11px;
+    line-height: 2em;
+    text-align: center;
+  }
+
+.circleYellow {
+    background: #f7ff0f;
+    border-radius: 3em;
+    -moz-border-radius: 3em;
+    -webkit-border-radius: 3em;
+    color: #000000;
+    height: 1.8em;
+    width: 1.8em;
+    display: inline-block;
+    font-family: 'Roboto', Helvetica, Sans-serif;
+    font-size: 11px;
+    line-height: 2em;
+    text-align: center;
+  }
+
+.circleOrange {
+    background: #FF5A00;
+    border-radius: 3em;
+    -moz-border-radius: 3em;
+    -webkit-border-radius: 3em;
+    color: #ffffff;
+    height: 1.8em;
+    width: 1.8em;
+    display: inline-block;
+    font-family: 'Roboto', Helvetica, Sans-serif;
+    font-size: 11px;
+    line-height: 2em;
+    text-align: center;
+  }
+
+  .circleRed {
+    background: #eb0000;
+    border-radius: 3em;
+    -moz-border-radius: 3em;
+    -webkit-border-radius: 3em;
+    color: #ffffff;
+    height: 1.8em;
+    width: 1.8em;
+    display: inline-block;
+    font-family: 'Roboto', Helvetica, Sans-serif;
+    font-size: 11px;
+    line-height: 2em;
+    text-align: center;
+  }
+
+  .circlePurple {
+    background: #680067;
+    border-radius: 3em;
+    -moz-border-radius: 3em;
+    -webkit-border-radius: 3em;
+    color: #ffffff;
+    height: 1.8em;
+    width: 1.8em;
+    display: inline-block;
+    font-family: 'Roboto', Helvetica, Sans-serif;
+    font-size: 11px;
+    line-height: 2em;
+    text-align: center;
+  }
+

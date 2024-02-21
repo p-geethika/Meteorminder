@@ -1,0 +1,70 @@
+.forecast-card{
+  margin-top: 20px;
+  padding-bottom: 60px;
+  padding-top: 20px;
+  border-radius: 8px;
+  color: black;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+h2 {
+  color: white;
+ 
+}
+
+.chart-container {
+ margin: 10px;
+  min-height: 20vh;
+  height: 43vh;
+}
+
+.tooltipText{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+input[type="datetime-local"] {
+  
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  color: #000000;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  padding-left: 5px;
+  margin: 5px;
+  width: 200px;
+  height: 5vh;
+}
+
+
+/* Style the calendar portion of the datetime-local input */
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  background-image: url('./calendar.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20%;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Add the hover effect */
+input[type="datetime-local"]::-webkit-calendar-picker-indicator:hover {
+  background-image: url('./calendar.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20%;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+
